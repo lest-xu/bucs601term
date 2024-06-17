@@ -1,4 +1,4 @@
-# X Grocery Store
+# Portfolio X
 
 This project is a personal portfolio website for my class CS 601 O1 final project at Boston University, showcasing resume, skills, and personal information. It is built using HTML, CSS and React with responsive layout.
 
