@@ -1,6 +1,6 @@
 import { Database, onValue, ref, set } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
-import iEducation from '../../models/ieducation';
+import iEducation from '../../interfaces/ieducation';
 
 interface AppProps {
     database: Database;

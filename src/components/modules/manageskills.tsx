@@ -1,7 +1,7 @@
 import { onValue, ref, set } from 'firebase/database';
 import React, { useState } from 'react';
 import Alert from './alert';
-import iAppProps from '../../models/iappprops';
+import iAppProps from '../../interfaces/iappprops';
 
 
 const ManageSkills: React.FC<iAppProps> = ({ database }) => {

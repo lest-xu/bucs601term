@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from './sidebar';
 import ExperienceList from './modules/experienceList';
 import EducationList from './modules/educationList';
-import iAppProps from '../models/iappprops';
+import iAppProps from '../interfaces/iappprops';
 
 const Home: React.FC<iAppProps> = ({ database }) => {
 

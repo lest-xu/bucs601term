@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { onValue, ref } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
-import iAppProps from '../models/iappprops';
-import iPhoto from '../models/iphoto';
+import iAppProps from '../interfaces/iappprops';
+import iPhoto from '../interfaces/iphoto';
 
 const Gallery: React.FC<iAppProps> = ({ database }) => {
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfileCard from './modules/profile';
 import SkillsList from './modules/skillsList';
-import iAppProps from '../models/iappprops';
+import iAppProps from '../interfaces/iappprops';
 
 const Sidebar: React.FC<iAppProps> = ({ database }) => {
 

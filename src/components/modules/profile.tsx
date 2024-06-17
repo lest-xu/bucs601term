@@ -1,6 +1,6 @@
 import { Database, onValue, ref, set } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
-import iProfile from '../../models/iprofile';
+import iProfile from '../../interfaces/iprofile';
 
 interface AppProps {
     database: Database;

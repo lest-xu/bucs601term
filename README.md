@@ -39,7 +39,7 @@ You can view the live demo of the project [here](https://lest-xu.github.io/).
 
 ### Prerequisites
 
-- Node.js installed on your machine. You can download and install Node.js from [here](https://nodejs.org/en/download).
+- Node.tsx installed on your machine. You can download and install Node.tsx from [here](https://nodejs.org/en/download).
 
 ### Installation
 
@@ -111,31 +111,38 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 The project directory contains the following files:
 
 ```
-    x-grocery-store/
+    protfoliox/
         node_modules/
         public/
+            ├── favicon.ico
             ├── index.html
-            images/
-                ├── apple.jpg
-                ├── blueberry.jpg
-                ├── carrot.jpg
-                ├── cucumber.jpg
-                ├── lettuce.jpg
-                ├── orange.jpg
-                ├── strawberry.jpg
-                ├── tomato.jpg
         src/
             components/
-                ├── InventoryItem.js
-                ├── InventoryList.js
-                ├── NotFound.js
-                ├── ProductDetail.js
-            models/
-                ├── inventory.json
-            ├── App.js
+                ├── InventoryItem.tsx
+                ├── InventoryList.tsx
+                ├── NotFound.tsx
+                ├── ProductDetail.tsx
+                modules/
+                    ├── alert.tsx
+                    ├── educationList.tsx
+                    ├── experienceList.tsx
+                    ├── manageskills.tsx
+                    ├── profile.tsx
+                    ├── skillsList.tsx
+            interfaces/
+                ├── iappprops.tsx
+                ├── icontact.tsx
+                ├── ieducation.tsx
+                ├── iexperience.tsx
+                ├── iphoto.tsx
+                ├── iprofile.tsx
+            ├── App.tsx
             ├── bootstrap.css
-            ├── index.js
+            ├── index.tsx
+            ├── react-app-env.d.ts
             ├── styles.css
+        ├── .gitignore
         ├── package-lock.json
-        ├── package.json
+        ├── package.tsxon
         ├── README.md
+        ├── tsconfig.json

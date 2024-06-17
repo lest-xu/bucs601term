@@ -1,8 +1,8 @@
 import { onValue, ref, set, remove } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
-import iContact from '../models/icontact';
-import iExperience from '../models/iexperience';
-import iAppProps from '../models/iappprops';
+import iContact from '../interfaces/icontact';
+import iExperience from '../interfaces/iexperience';
+import iAppProps from '../interfaces/iappprops';
 import ManageSkills from './modules/manageskills';
 
 const Admin: React.FC<iAppProps> = ({ database }) => {
