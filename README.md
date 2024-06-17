@@ -1,6 +1,6 @@
 # X Grocery Store
 
-This is a simple Inventory application for a local grocery store built with React for my class CS 601 O1 Assignment 6 at Boston University. The application dynamically rendered list of products, each including its SKU, Name, and Quantity.
+This project is a personal portfolio website for my class CS 601 O1 final project at Boston University, showcasing resume, skills, and personal information. It is built using HTML, CSS and React with responsive layout.
 
 Side notes: most of the styles were adapted from the previous assignment 3; most of the components are from the previous assignment 5.
 
@@ -15,7 +15,7 @@ Side notes: most of the styles were adapted from the previous assignment 3; most
 
 ## Demo
 
-You can view the live demo of the project [here](https://codepen.io/lest-xu/pen/wvbqyyj).
+You can view the live demo of the project [here](https://lest-xu.github.io/).
 
 ## Features
 
