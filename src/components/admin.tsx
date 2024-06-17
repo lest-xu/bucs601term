@@ -59,7 +59,7 @@ const Admin: React.FC<iAppProps> = ({ database }) => {
     };
 
     return (
-        <div className='mt-3'>
+        <div className='flex-item mt-3'>
             <div className='container'>
                 <h2 className='mb-3'>Portfolio Management</h2>
                 <div className="card-header">Contact Feedbacks</div>

@@ -23,18 +23,17 @@ You can view the live demo of the project [here](https://lest-xu.github.io/).
 - A clean and modern user interface
 - Sections for inventory, about me, and contact information
 - Hover effects for interactive user experience
-- Fetch inventory data from a remote JSON file.
-- Dynamically rendered a list of products on the webpage.
-- Delete product when click Delete button on each item.
-- Rest the products to the original inventory.
+- Fetch portfolio data from Firebase Realtime Database.
+- Dynamically rendered a list of edus/experiences/skills on the webpage.
+- Admin page that manages contact feedbacks and skills.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - React
-- Javascript
-- Fetch API
+- Typescript
+- Firebase Realtime Database
 
 ## Getting Started
 
@@ -47,12 +46,12 @@ You can view the live demo of the project [here](https://lest-xu.github.io/).
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/lest-xu/bucs601a5.git
+   git clone https://github.com/lest-xu/bucs601term.git
 
 2. Navigate to the project directory:
 
    ```sh
-   cd bucs601a5
+   cd bucs601term
 
 3. Install the React App compiler and other dependencies:
 
@@ -83,25 +82,29 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Project Structure
 
-`App.js`: Main React component jsx file containing the inventory list component.
+`index.tsx`: Default root typescript file for the webpage.
 
-`InventoryList.js`: React component jsx file rendering the inventory list logic.
+`App.tsx`: Main React component tsx file containing the web pages component with fireabse database logic.
 
-`InventoryItem.js`: React component jsx file returning the inventory item logic.
+`home.tsx`: React component tsx file containing the home page logic.
 
-`NotFound.js`: React component jsx file returning when the page is not found.
+`header.tsx`: React component tsx file returning the header nav component.
 
-`ProductDetail.js`: React component jsx file returning the details of the inventory item logic.
+`footer.tsx`: React component tsx file returning when the footer component.
 
-`index.js`: Default root javascript file for the webpage.
+`sidebar.tsx`: React component tsx file returning the sidebar component with the profile and skills.
+
+`gallery.tsx`: React component tsx file containing the gallery page logic that displaying the photos gallery.
+
+`resume.tsx`: React component tsx file containing the embedded PDF resume.
+
+`contact.tsx`: React component tsx file containing the contact form that collets users feedback.
 
 `index.html`: HTML file containing the structure of the webpage.
 
 `style.css`: CSS file for basic styling from previous assignment 3.
 
 `bootstrap.css`: CSS file for buttons styling from Bootstrap.
-
-`inventory.json`: JSON file containing the list of grocery items.
 
 ## File Structure
 
