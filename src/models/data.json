@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "city": "",
+        "country": "United States",
+        "email": "lixu88@bu.edu",
+        "firstname": "Li",
+        "gender": "Male",
+        "github": "",
+        "lastname": "Xu",
+        "linkedin": "",
+        "major": "M.S. Software Development",
+        "phone": "",
+        "profileImg": "",
+        "school": "Boston University",
+        "yearsofexperience": 9,
+        "skills": ["Java", "C#", "Python", "Node.js", "React"]
+    },
+    "contacts": [
+        {
+            "id": 1,
+            "details": "sdfadsfasd",
+            "email": "test@gmail.com",
+            "firstname": "Test",
+            "lastname": "XX",
+            "phone": "123-456-7890"
+        }
+    ],
+    "educations": [
+        {
+            "id": 1,
+            "endyear": "May 31, 2025 ",
+            "level": "Master",
+            "major": "M.S. Software Development",
+            "school": "Boston University",
+            "startyear": "September 5, 2022 "
+        }
+    ],
+    "workexperiences": [
+        {
+            "id": 1,
+            "company": "Deloitte",
+            "enddate": "",
+            "location": "",
+            "startdate": ""
+        }
+    ]
+}
