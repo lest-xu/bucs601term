@@ -16,7 +16,7 @@ const Admin: React.FC<iAppProps> = ({ database }) => {
         // fetch data from the database
         const fetchData = async () => {
             try {
-                // get a list of photos from the database
+                // get a list of data from the database
                 const contactsRef = () => ref(database, 'contacts/');
                 onValue(contactsRef(), (snapshot) => {
                     const data = snapshot.val();
@@ -27,12 +27,6 @@ const Admin: React.FC<iAppProps> = ({ database }) => {
                     const data = snapshot.val();
                     setSkills(data);
                 });
-
-                // add a photo
-                // set(ref(database, 'photos/' + photoId), {
-                //     id: photoId,
-                //     imgUrl: 'https://i.pinimg.com/originals/fe/46/f4/fe46f4f26caa7f07e5ecdc6a7230b7bf.png'
-                // });
 
             } catch (error) {
                 console.error('Failed to fetch data:', error);

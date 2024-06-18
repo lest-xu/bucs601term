@@ -1,17 +1,15 @@
-import { Database, onValue, ref, set } from 'firebase/database';
+import { onValue, ref } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
 import iProfile from '../../interfaces/iprofile';
+import iAppProps from '../../interfaces/iappprops';
 
-interface AppProps {
-    database: Database;
-}
 
-const ProfileCard: React.FC<AppProps> = ({ database }) => {
+const ProfileCard: React.FC<iAppProps> = ({ database }) => {
 
     const [profile, setProfile] = useState<iProfile>();
 
     useEffect(() => {
-        // fetch photos from the database
+        // fetch data from the database
         const fetchData = async () => {
             try {
                 // get profile details from the database

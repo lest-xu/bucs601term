@@ -1,15 +1,13 @@
-import { Database, onValue, ref, set } from 'firebase/database';
+import { onValue, ref } from 'firebase/database';
 import React, { useEffect, useState } from 'react';
-interface AppProps {
-    database: Database;
-}
+import iAppProps from '../../interfaces/iappprops';
 
-const SkillsList: React.FC<AppProps> = ({ database }) => {
+const SkillsList: React.FC<iAppProps> = ({ database }) => {
 
     const [skills, seSkills] = useState<string[]>([]);
 
     useEffect(() => {
-        // fetch photos from the database 
+        // fetch data from the database 
         const fetchData = async () => {
             try {
                 // get skills details from the database
