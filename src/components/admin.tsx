@@ -16,7 +16,7 @@ const Admin: React.FC<iAppProps> = ({ database }) => {
         // fetch data from the database
         const fetchData = async () => {
             try {
-                // get a list of data from the database
+                // get data from the database
                 const contactsRef = () => ref(database, 'contacts/');
                 onValue(contactsRef(), (snapshot) => {
                     const data = snapshot.val();
