@@ -17,6 +17,10 @@ Side notes: most of the styles were adapted from the previous assignment 3; most
 
 You can view the live demo of the project [here](https://lest-xu.github.io/).
 
+## Video Presentation
+You can view the video presentation of this project on YouTube: 
+[https://youtu.be/vwmQ9-jRLm4](https://youtu.be/vwmQ9-jRLm4)
+
 ## Features
 
 - Responsive design that works on various devices
